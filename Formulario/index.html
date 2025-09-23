@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <main>
+        <form action="">
+            <h1>Formulario</h1>
+            <p>Llene todos los campos</p>
+            
+            <label for="Nombre">Nombre:</label>
+            <input type="text" id="Nombre" name="Nombre" required placeholder="Escribe tu nombre">
+
+            <label for="Apellido">Apellido:</label>
+            <input type="text" id="Apellido" name="Apellido" required placeholder="Escribe tu apellido">
+
+            <label for="Email">Email:</label>
+            <input type="email" id="Email" name="Email" required placeholder="Escribe tu email">
+
+            <label for="Password">Password:</label>
+            <input type="password" id="Password" name="Password" required placeholder="Escribe tu contraseña">
+
+            <label for="Telefono">Teléfono:</label>
+            <input type="tel" id="Telefono" name="Telefono" required placeholder="Escribe tu teléfono">
+
+            <label for="FechaNacimiento">Fecha de Nacimiento:</label>
+            <input type="date" id="FechaNacimiento" name="FechaNacimiento" required>
+
+            <label for="Edad">Edad:</label>
+            <input type="number" id="Edad" name="Edad" required placeholder="Escribe tu edad" min="0" max="80">
+
+            <fieldset>
+                <legend>Género:</legend>
+                <label for="Masculino">Masculino</label>
+                <input type="radio" id="Masculino" name="Genero" value="Masculino" required>
+                
+                <label for="Femenino">Femenino</label>
+                <input type="radio" id="Femenino" name="Genero" value="Femenino" required>
+
+                <label for="Otro">Otro</label>
+                <input type="radio" id="Otro" name="Genero" value="Otro" required>
+            </fieldset>
+
+            <fieldset>
+                <legend>País:</legend>
+                <label for="Pais1">
+                    <input type="checkbox" id="Pais1" name="Pais" value="Mexico">
+                    Mexico
+                </label>
+                <label for="Pais2">
+                    <input type="checkbox" id="Pais2" name="Pais" value="EU">
+                    Estados Unidos
+                </label>
+                <label for="Pais3">
+                    <input type="checkbox" id="Pais3" name="Pais" value="Canada">
+                    Canada
+                </label>
+            </fieldset>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+</body>
+</html>
