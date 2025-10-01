@@ -1,0 +1,29 @@
+body{
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 50px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.container {
+    display: flex; /* Simepre fila */
+    gap: 10px; /* Space between items */
+    margin-top: 20px;
+}
+
+.box{
+    flex: 1;
+    padding: 20px;
+    background-color: aqua;
+    border-radius: 6px;
+}
