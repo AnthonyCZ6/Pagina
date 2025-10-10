@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Mi sitio web</h1>
+    </header>
+    <main id="Principal">
+    </main>
+    <script>
+        let Principal = document.getElementById("Principal");
+        Principal.innerHTML = "<h2>Hola, mundo!</h2>";
+        Principal.innerHTML += "<p>Bienvenido a mi sitio web.</p>";
+
+        //Calcular la suma de dos números
+        suma = 5 + 3;
+        Principal.innerHTML += "<p>La suma de 5 + 3 es: " + suma + "</p>";
+        resta = 10 - 4;
+        Principal.innerHTML += "<p>La resta de 10 - 4 es: " + resta + "</p>";
+        multiplicacion = 6 * 7;
+        Principal.innerHTML += "<p>La multiplicación de 6 * 7 es: " + multiplicacion + "</p>";
+        division = 20 / 5;
+        Principal.innerHTML += "<p>La división de 20 / 5 es: " + division + "</p>";
+
+        // Agregar más contenido dinámicamente
+        Principal.innerHTML += "<ul><li>Elemento 1</li><li>Elemento 2</li><li>Elemento 3</li></ul>";
+        Principal.innerHTML += "<p>Este es un nuevo párrafo agregado dinámicamente.</p>";
+        Principal.innerHTML += "<img src='imagen.jpg' alt='Descripción de la imagen'>";
+        Principal.innerHTML += "<p>Este es otro párrafo adicional.</p>";
+        Principal.innerHTML += "<footer><p>© 2024 Mi sitio web</p></footer>";
+    </script>
+</body>
+</html>
